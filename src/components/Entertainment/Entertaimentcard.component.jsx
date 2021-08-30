@@ -4,17 +4,14 @@ import Slider from "react-slick";
 
 const EntertainmentCard = (props) => {
     return (
-      <>
+       <>
         <div className="w-full h-30 px-2">
-          <img
-            className="w-full h-full rounded-xl"
-            src={props.src}
-            alt="entertainment image"
-          />
+          <img className="w-full h-fill rounded-md" src ={props.src} alt ="Entertainment page"    />
         </div>
       </>
     );
   };
+
   const EntertainmentCardSlider = () => {
     const EntertainmentImage = [
       "https://in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MjQwKyBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300/workshops-collection-202007231330.png",
